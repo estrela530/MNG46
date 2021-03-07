@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Scene Folder/Result.unity
+- path: Assets/Scenes/Scene Folder/StageSelect.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
