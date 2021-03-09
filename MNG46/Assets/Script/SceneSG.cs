@@ -11,4 +11,23 @@ public class SceneSG : MonoBehaviour
         SceneManager.LoadScene("Game");
     }
 
+    void Update()
+    {
+        float hori = Input.GetAxis("L_Stick_H");
+        float vert = Input.GetAxis("L_Stick_V");
+
+        SceneChange();
+    }
+
+    //シーン切り替え用
+    void SceneChange()
+    {
+        //if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.JoystickButton0))
+        {
+            SceneManager.LoadScene("Game");
+        }
+
+
+    }
 }

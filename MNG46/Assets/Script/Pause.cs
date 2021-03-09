@@ -13,7 +13,7 @@ public class Pause : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown("p"))
+        if (Input.GetKeyDown(KeyCode.JoystickButton7))
         {
             if (pauseUIInstance == null)
             {
