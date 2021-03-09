@@ -3,7 +3,7 @@
   "Assemblies": [
     {
       "FullName": "Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2021-03-08T04:48:37.6173982Z"
+      "LastWriteTime": "2021-03-08T03:08:01.3253866Z"
     },
     {
       "FullName": "netstandard, Version=2.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51",
@@ -19,28 +19,19 @@
     },
     {
       "FullName": "Deform, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2021-03-08T04:48:37.6064273Z"
+      "LastWriteTime": "2021-03-08T03:08:01.300488Z"
     },
     {
       "FullName": "mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
       "LastWriteTime": "2021-01-20T06:15:42Z"
     },
     {
-<<<<<<< HEAD
-      "FullName": "Unity.Mathematics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2021-03-07T04:07:26.7762654Z"
-    },
-    {
       "FullName": "Beans.Unity.Mathematics, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2021-03-07T04:07:26.7403635Z"
-=======
-      "FullName": "Beans.Unity.Mathematics, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2021-03-08T04:48:37.6034355Z"
+      "LastWriteTime": "2021-03-08T03:08:01.2944703Z"
     },
     {
       "FullName": "Unity.Mathematics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2021-03-08T04:48:37.6293655Z"
->>>>>>> Munage
+      "LastWriteTime": "2021-03-08T03:08:01.3543145Z"
     }
   ],
   "Functions": [
@@ -67,6 +58,21 @@
       ]
     },
     {
+      "FullName": "System.Void Unity.Jobs.IJobExtensions/JobStruct`1<Deform.RecalculateBoundsJob>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)",
+      "ModuleOptionsHash": 11834165633931345063,
+      "ModuleHash": "7fe4cea04e607ceb0c510e072d797073",
+      "LinkName": "A8DD24E62E807AD0",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        5,
+        1,
+        2,
+        6,
+        7
+      ]
+    },
+    {
       "FullName": "System.Void Unity.Jobs.IJobExtensions/JobStruct`1<Deform.AddTriangleNormalToNormalsJob>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)",
       "ModuleOptionsHash": 11834165633931345063,
       "ModuleHash": "0f2ed5abc3c48c1c60713b904419729d",
@@ -77,14 +83,14 @@
         5,
         1,
         2,
-        6
+        7
       ]
     },
     {
-      "FullName": "System.Void Unity.Jobs.IJobExtensions/JobStruct`1<Deform.RecalculateBoundsJob>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)",
+      "FullName": "System.Void Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Deform.MaskedElasticPointsUpdateJob>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)",
       "ModuleOptionsHash": 11834165633931345063,
-      "ModuleHash": "7fe4cea04e607ceb0c510e072d797073",
-      "LinkName": "A8DD24E62E807AD0",
+      "ModuleHash": "5299a2f02874432822144a7c87254e88",
+      "LinkName": "618BFFEB9214578E",
       "AssemblyDependencyIndices": [
         3,
         4,
@@ -106,23 +112,8 @@
         5,
         1,
         2,
-        6,
-        7
-      ]
-    },
-    {
-      "FullName": "System.Void Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Deform.MaskedElasticPointsUpdateJob>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)",
-      "ModuleOptionsHash": 11834165633931345063,
-      "ModuleHash": "5299a2f02874432822144a7c87254e88",
-      "LinkName": "618BFFEB9214578E",
-      "AssemblyDependencyIndices": [
-        3,
-        4,
-        5,
-        1,
-        2,
-        6,
-        7
+        7,
+        6
       ]
     },
     {
@@ -134,7 +125,7 @@
         3,
         4,
         5,
-        6,
+        7,
         1,
         2
       ]
@@ -148,7 +139,7 @@
         3,
         4,
         5,
-        6,
+        7,
         1,
         2
       ]
@@ -162,7 +153,7 @@
         3,
         4,
         5,
-        6,
+        7,
         1,
         2
       ]
@@ -176,7 +167,7 @@
         3,
         4,
         5,
-        6,
+        7,
         1,
         2
       ]
@@ -192,7 +183,7 @@
         5,
         1,
         2,
-        6
+        7
       ]
     },
     {
@@ -206,7 +197,7 @@
         5,
         1,
         2,
-        6
+        7
       ]
     },
     {
@@ -220,7 +211,7 @@
         5,
         1,
         2,
-        6
+        7
       ]
     },
     {
@@ -234,8 +225,8 @@
         5,
         1,
         2,
-        7,
-        6
+        6,
+        7
       ]
     },
     {
@@ -249,8 +240,8 @@
         5,
         1,
         2,
-        7,
-        6
+        6,
+        7
       ]
     },
     {
@@ -264,7 +255,7 @@
         5,
         1,
         2,
-        6
+        7
       ]
     },
     {
@@ -278,7 +269,7 @@
         5,
         1,
         2,
-        6
+        7
       ]
     },
     {
@@ -292,8 +283,8 @@
         5,
         1,
         2,
-        6,
-        7
+        7,
+        6
       ]
     },
     {
@@ -307,8 +298,8 @@
         5,
         1,
         2,
-        6,
-        7
+        7,
+        6
       ]
     },
     {
@@ -322,7 +313,7 @@
         5,
         1,
         2,
-        6
+        7
       ]
     },
     {
@@ -336,7 +327,7 @@
         5,
         1,
         2,
-        6
+        7
       ]
     },
     {
@@ -350,8 +341,8 @@
         5,
         1,
         2,
-        6,
-        7
+        7,
+        6
       ]
     },
     {
@@ -365,7 +356,7 @@
         5,
         1,
         2,
-        6
+        7
       ]
     },
     {
@@ -379,7 +370,7 @@
         5,
         1,
         2,
-        6
+        7
       ]
     },
     {
@@ -391,7 +382,7 @@
         3,
         4,
         5,
-        6,
+        7,
         1,
         2
       ]
@@ -407,7 +398,7 @@
         5,
         1,
         2,
-        6
+        7
       ]
     },
     {
@@ -421,7 +412,7 @@
         5,
         1,
         2,
-        6
+        7
       ]
     },
     {
@@ -435,7 +426,7 @@
         5,
         1,
         2,
-        6
+        7
       ]
     },
     {
@@ -449,7 +440,7 @@
         5,
         1,
         2,
-        6
+        7
       ]
     },
     {
@@ -461,7 +452,7 @@
         3,
         4,
         5,
-        6,
+        7,
         1,
         2
       ]
@@ -477,7 +468,7 @@
         5,
         1,
         2,
-        6
+        7
       ]
     },
     {
@@ -491,7 +482,7 @@
         5,
         1,
         2,
-        6
+        7
       ]
     },
     {
@@ -505,7 +496,7 @@
         5,
         1,
         2,
-        6
+        7
       ]
     },
     {
@@ -519,7 +510,7 @@
         5,
         1,
         2,
-        6
+        7
       ]
     },
     {
@@ -531,7 +522,7 @@
         3,
         4,
         5,
-        6,
+        7,
         1,
         2
       ]
@@ -547,7 +538,7 @@
         5,
         1,
         2,
-        6
+        7
       ]
     },
     {
@@ -561,7 +552,7 @@
         5,
         1,
         2,
-        6
+        7
       ]
     },
     {
@@ -575,7 +566,7 @@
         5,
         1,
         2,
-        6
+        7
       ]
     },
     {
@@ -589,7 +580,7 @@
         5,
         1,
         2,
-        6
+        7
       ]
     },
     {
@@ -603,8 +594,8 @@
         5,
         1,
         2,
-        6,
-        7
+        7,
+        6
       ]
     },
     {
@@ -618,7 +609,7 @@
         5,
         1,
         2,
-        6
+        7
       ]
     },
     {
@@ -632,7 +623,7 @@
         5,
         1,
         2,
-        6
+        7
       ]
     },
     {
@@ -646,7 +637,7 @@
         5,
         1,
         2,
-        6
+        7
       ]
     },
     {
@@ -660,7 +651,7 @@
         5,
         1,
         2,
-        6
+        7
       ]
     },
     {
@@ -672,7 +663,7 @@
         3,
         4,
         5,
-        6,
+        7,
         1,
         2
       ]
@@ -688,7 +679,7 @@
         5,
         1,
         2,
-        6
+        7
       ]
     },
     {
@@ -702,7 +693,7 @@
         5,
         1,
         2,
-        6
+        7
       ]
     },
     {
@@ -716,7 +707,7 @@
         5,
         1,
         2,
-        6
+        7
       ]
     },
     {
@@ -730,7 +721,7 @@
         5,
         1,
         2,
-        6
+        7
       ]
     },
     {
@@ -744,7 +735,7 @@
         5,
         1,
         2,
-        6
+        7
       ]
     },
     {
@@ -758,7 +749,7 @@
         5,
         1,
         2,
-        6
+        7
       ]
     },
     {
@@ -772,7 +763,7 @@
         5,
         1,
         2,
-        6
+        7
       ]
     },
     {
@@ -786,7 +777,7 @@
         5,
         1,
         2,
-        6
+        7
       ]
     },
     {
@@ -800,8 +791,8 @@
         5,
         1,
         2,
-        6,
-        7
+        7,
+        6
       ]
     },
     {
@@ -815,8 +806,8 @@
         5,
         1,
         2,
-        6,
-        7
+        7,
+        6
       ]
     },
     {
@@ -830,8 +821,8 @@
         5,
         1,
         2,
-        6,
-        7
+        7,
+        6
       ]
     },
     {
@@ -845,8 +836,8 @@
         5,
         1,
         2,
-        6,
-        7
+        7,
+        6
       ]
     },
     {
@@ -858,7 +849,7 @@
         3,
         4,
         5,
-        6,
+        7,
         1,
         2
       ]
@@ -872,7 +863,7 @@
         3,
         4,
         5,
-        6,
+        7,
         1,
         2
       ]
@@ -888,7 +879,7 @@
         5,
         1,
         2,
-        6
+        7
       ]
     },
     {
@@ -902,7 +893,7 @@
         5,
         1,
         2,
-        6
+        7
       ]
     },
     {
@@ -916,7 +907,7 @@
         5,
         1,
         2,
-        6
+        7
       ]
     },
     {
@@ -930,7 +921,7 @@
         5,
         1,
         2,
-        6
+        7
       ]
     },
     {
@@ -942,7 +933,7 @@
         3,
         4,
         5,
-        6,
+        7,
         1,
         2
       ]
@@ -956,7 +947,7 @@
         3,
         4,
         5,
-        6,
+        7,
         1,
         2
       ]
@@ -972,7 +963,7 @@
         5,
         1,
         2,
-        6
+        7
       ]
     },
     {
@@ -984,7 +975,7 @@
         3,
         4,
         5,
-        6,
+        7,
         1,
         2
       ]
@@ -1000,8 +991,8 @@
         5,
         1,
         2,
-        7,
-        6
+        6,
+        7
       ]
     },
     {
@@ -1015,8 +1006,8 @@
         5,
         1,
         2,
-        7,
-        6
+        6,
+        7
       ]
     },
     {
@@ -1030,7 +1021,7 @@
         5,
         1,
         2,
-        6
+        7
       ]
     },
     {
@@ -1044,7 +1035,7 @@
         5,
         1,
         2,
-        6
+        7
       ]
     },
     {
@@ -1058,7 +1049,7 @@
         5,
         1,
         2,
-        6
+        7
       ]
     },
     {
@@ -1072,7 +1063,7 @@
         5,
         1,
         2,
-        6
+        7
       ]
     },
     {
@@ -1086,7 +1077,7 @@
         5,
         1,
         2,
-        6
+        7
       ]
     },
     {
@@ -1100,7 +1091,7 @@
         5,
         1,
         2,
-        6
+        7
       ]
     }
   ]
