@@ -13,8 +13,6 @@ public class SceneSG : MonoBehaviour
 
     void Update()
     {
-        float hori = Input.GetAxis("L_Stick_H");
-        float vert = Input.GetAxis("L_Stick_V");
 
         SceneChange();
     }
